@@ -34,6 +34,7 @@ class CashRegister
   
   def items
      @quantity.times{@@items << @title}
+     @@items
 
   end
   
