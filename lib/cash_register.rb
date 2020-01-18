@@ -34,8 +34,7 @@ class CashRegister
   
   def items
      @quantity.times{@@items << @title}
-     binding.pry
-     @@items
+
   end
   
 end
